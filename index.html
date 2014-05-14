@@ -1,10 +1,11 @@
 <!doctype html>
 <html lang="ja">
 	<head>
-		<title>計算機</title>
+		<title>消費税かるきゅれーたー</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 		<link rel="stylesheet" type="text/css" href="css/calc.css">
+		<link rel="stylesheet" type="text/css" href="css/design.css">
 	</head>
 	<body>
 		<article id="calculator">
@@ -12,23 +13,17 @@
 				<h2>次の点を確認してください</h2>
 				<ul>
 					<li>入力したのは数値ですか？文字列を入力していませんか？</li>
-					<li>演算子を正しく選んでいますか？</li>
-					<li>0で割ろうとしていませんか？</li>
-					<li>自然数以外の数に対して「あまり」を計算しようとしていませんか？</li>
+					<li>入力したのは自然数ですか？マイナスの金額は計算できません。</li>
 				</ul>
 			</div>
 			<form>
-				<input type="text" id="operand_a">
-				<select id="operator">
-					<option>+</option>
-					<option>-</option>
-					<option>*</option>
-					<option>/</option>
-					<option>%</option>
+				<input type="text" id="operand_a">円
+				<select id="operand_b">
+					<option>5%</option>
+					<option>8%</option>
+					<option>10%</option>
 				</select>
-				<input type="text" id="operand_b">
-				<p>=</p>
-				<input type="text" id="output">
+				<input type="text" id="output">円
 				<button type="button" id="calcButton">計算</button>
 			</form>
 		</article>

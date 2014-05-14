@@ -1,0 +1,16 @@
+.top {
+	background-color: #FF3333;
+	height: 10%;
+	text-align: center;
+	margin-top: -100px;
+}
+
+h1 #top{
+	font-size: 150px;
+	color: #FFFFFF;
+	background-color: #FF3333;
+}
+.top h2{
+	font-size: 75px;
+	color: #FFFFFF;
+}
